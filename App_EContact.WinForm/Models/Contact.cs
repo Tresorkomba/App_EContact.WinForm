@@ -29,4 +29,15 @@ namespace App_EContact.WinForm.Models
         {
 
         }
+        public Contact(string nomComplet, DateTime dateNaiss, string email, string sexe, string tel, string urlPhoto)
+        {
+            NomComplet = nomComplet;
+            DateNaiss = dateNaiss;
+            Email = email;
+            Sexe = sexe;
+            Tel = tel;
+            this.urlPhoto = urlPhoto;
+        }
+
+    }
 }
